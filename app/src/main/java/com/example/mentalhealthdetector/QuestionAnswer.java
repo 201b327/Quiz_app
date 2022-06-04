@@ -9,3 +9,11 @@ public static String question[] ={
             "Where you are watching this video?",
             "Which company owns the Apple?"
     };
+
+
+public static String choices[][] = {
+            {"Google","Apple","Nokia","Samsung"},
+            {"Java","Kotlin","Notepad","Python"},
+            {"Facebook","Whatsapp","Instagram","Youtube"},
+            {"Google","Apple","Nokia","Samsung"}
+    };
