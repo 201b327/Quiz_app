@@ -108,10 +108,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    void restartQuiz(){
-        score = 0;
-        currentQuestionIndex =0;
-        loadNewQuestion();
-    }
-
-}
+    
