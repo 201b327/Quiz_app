@@ -15,3 +15,10 @@ public class QuestionAnswer {
             {"Facebook","Whatsapp","Instagram","Youtube"},
             {"Google","Apple","Nokia","Samsung"}
     };
+
+  public static String correctAnswers[] = {
+            "Google",
+            "Notepad",
+            "Youtube",
+            "Apple"
+    };
