@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ansC = findViewById(R.id.ans_C);
         ansD = findViewById(R.id.ans_D);
         submitBtn = findViewById(R.id.submit_btn);
+       
 
         ansA.setOnClickListener(this);
         ansB.setOnClickListener(this);
@@ -108,4 +109,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    
+void restartQuiz(){
+        score = 0;
+        currentQuestionIndex =0;
+        loadNewQuestion();
+    }
+
+}    
